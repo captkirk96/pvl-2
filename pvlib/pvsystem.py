@@ -413,13 +413,13 @@ class PVSystem:
         Parameters
         ----------
         poa_global : numeric or tuple of numeric
-            Total incident irradiance in W/m^2.
+            Total incident irradiance [W/m^2].
 
         temp_air : numeric or tuple of numeric
-            Ambient dry bulb temperature in degrees C.
+            Ambient dry bulb temperature [C].
 
         wind_speed : numeric or tuple of numeric
-            Wind speed in m/s.
+            Wind speed [m/s].
 
         model : str
             Supported models include ``'sapm'``, ``'pvsyst'``,
